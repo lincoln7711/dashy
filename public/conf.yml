@@ -2,50 +2,84 @@ pageInfo:
   title: Home
   description: Welcome back Andrew!
   navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
+    - title: HWS
+      path: https://www.hws.edu
       target: newtab
-    - title: Documentation
-      path: https://dashy.to/docs
+    - title: Google Home
+      path: https://www.google.com
       target: newtab
 appConfig:
-  theme: colorful
-  layout: auto
-  iconSize: medium
+  theme: default
+  layout: horizontal
+  iconSize: large
   language: en
+  customCss: |+
+
+
 sections:
-  - name: Getting Started
+  - name: Work
     icon: fas fa-rocket
     items:
-      - title: Dashy Live
-        description: Development a project management links for Dashy
-        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-        url: https://live.dashy.to/
-        target: newtab
-        id: 0_1481_dashylive
-      - title: GitHub
-        description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
+      - title: Canvas Production
+        description: HWS LMS SYSTEM
         icon: favicon
-        id: 1_1481_github
-      - title: Docs
-        description: Configuring & Usage Documentation
-        provider: Dashy.to
-        icon: far fa-book
-        url: https://dashy.to/docs
-        id: 2_1481_docs
-      - title: Showcase
-        description: See how others are using Dashy
-        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-        icon: far fa-grin-hearts
-        id: 3_1481_showcase
-      - title: Config Guide
-        description: See full list of configuration options
-        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-        icon: fas fa-wrench
-        id: 4_1481_configguide
-      - title: Support
-        description: Get help with Dashy, raise a bug, or get in contact
-        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-        icon: far fa-hands-helping
-        id: 5_1481_support
+        url: canvas.hws.edu
+        target: newtab
+        id: 0_419_canvasproduction
+      - title: Tickets
+        description: TDX Client Main Ticket Queue
+        icon: favicon
+        url: https://hws.teamdynamix.com/TDNext/Home/Desktop/Default.aspx
+        target: newtab
+        provider: TeamDynamix
+        id: 1_419_tickets
+      - title: Box
+        description: HWS Box Instance
+        icon: favicon
+        url: hws.box.com
+        target: newtab
+        provider: Box
+        id: 2_419_box
+      - title: KB
+        description: TDX Knowledge Base
+        icon: favicon
+        url: >-
+          https://hws.teamdynamix.com/TDClient/1889/Portal/KB/ArticleDet?ID=68366
+        target: newtab
+        provider: TeamDynamix
+        id: 3_419_kb
+      - title: Panopto
+        description: Panopto Main Instance
+        icon: favicon
+        url: hws.hosted.panopto.com
+        target: newtab
+        provider: Panopto
+        id: 4_419_panopto
+      - title: Zoom
+        description: HWS Zoom Instance
+        icon: favicon
+        url: hws.zoom.us
+        target: newtab
+        provider: Zoom
+        id: 5_419_zoom
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Personal
+    icon: fas fa-person-drowning
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Google Drive
+        icon: fas fa-google-drive
+        url: drive.google.com
+        target: newtab
+        provider: Google
+        id: 0_836_googledrive
