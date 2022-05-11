@@ -14,6 +14,11 @@ appConfig:
   iconSize: large
   language: en
   customCss: |+
+  auth:
+    users:
+    - user: andrew
+      hash: 788C90B723189FCFB0C2E5968F849CDD4025BAC2895E30B00FAAC76C4804C1BD
+      type: admin
 
 
 sections:
