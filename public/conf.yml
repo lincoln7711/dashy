@@ -89,34 +89,6 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-  - name: Personal
-    icon: fas fa-person-drowning
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - title: Google Drive
-        icon: fas fa-google-drive
-        url: https://drive.google.com
-        target: newtab
-        provider: Google
-        id: 0_836_googledrive
-        statusCheck: false
-      - title: Personal Site
-        icon: favicon
-        url: https://www.andrewlincolnsmith.com
-        target: sametab
-        id: 1_836_personalsite
-        statusCheck: false        
-      - title: Genealogy Site
-        icon: favicon
-        url: https://www.genealogy.andrewlincolnsmith.com
-        target: sametab
-        id: 2_836_genealogysite
-        statusCheck: false
   - name: Work Testing
     icon: U+1F616
     displayData:
@@ -151,4 +123,32 @@ sections:
         url: https://hws.teamdynamix.com/SBTDClient/1889/Portal/KB/
         target: newtab
         id: 3_1185_tdxsandbox
+        statusCheck: false
+  - name: Personal
+    icon: fas fa-person-drowning
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Google Drive
+        icon: fas fa-google-drive
+        url: https://drive.google.com
+        target: newtab
+        provider: Google
+        id: 0_836_googledrive
+        statusCheck: false
+      - title: Personal Site
+        icon: favicon
+        url: https://www.andrewlincolnsmith.com
+        target: sametab
+        id: 1_836_personalsite
+        statusCheck: false        
+      - title: Genealogy Site
+        icon: favicon
+        url: https://www.genealogy.andrewlincolnsmith.com
+        target: sametab
+        id: 2_836_genealogysite
         statusCheck: false
