@@ -31,7 +31,7 @@ sections:
       - title: Canvas Production
         description: HWS LMS SYSTEM
         icon: favicon
-        url: canvas.hws.edu
+        url: https://canvas.hws.edu
         target: newtab
         id: 0_419_canvasproduction
         statusCheck: true
@@ -47,7 +47,7 @@ sections:
       - title: Box
         description: HWS Box Instance
         icon: favicon
-        url: hws.box.com
+        url: https://hws.box.com
         target: newtab
         provider: Box
         id: 2_419_box
@@ -64,7 +64,7 @@ sections:
       - title: Panopto
         description: Panopto Main Instance
         icon: favicon
-        url: hws.hosted.panopto.com
+        url: https://hws.hosted.panopto.com
         target: newtab
         provider: Panopto
         id: 4_419_panopto
@@ -72,7 +72,7 @@ sections:
       - title: Zoom
         description: HWS Zoom Instance
         icon: favicon
-        url: hws.zoom.us
+        url: https://hws.zoom.us
         target: newtab
         provider: Zoom
         id: 5_419_zoom
@@ -100,7 +100,7 @@ sections:
     items:
       - title: Google Drive
         icon: fas fa-google-drive
-        url: drive.google.com
+        url: https://drive.google.com
         target: newtab
         provider: Google
         id: 0_836_googledrive
@@ -140,7 +140,7 @@ sections:
         statusCheck: false
       - title: Panopto Test
         icon: favicon
-        url: hws-test.hosted.panopto.com
+        url: https://hws-test.hosted.panopto.com
         target: newtab
         id: 2_1185_panoptotest
         statusCheck: false
