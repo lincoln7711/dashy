@@ -44,7 +44,7 @@ sections:
         provider: TeamDynamix
         id: 1_419_tickets
         statusCheck: true
-        statusCheckUrl: https://hws.teamdynmix.com
+        statusCheckUrl: https://hws.teamdynamix.com
       - title: Box
         description: HWS Box Instance
         icon: favicon
