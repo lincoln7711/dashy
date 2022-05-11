@@ -35,7 +35,7 @@ sections:
         target: newtab
         id: 0_419_canvasproduction
         statusCheck: true
-        statusCheckUrl: status.instructure.com
+        statusCheckUrl: https://status.instructure.com
       - title: Tickets
         description: TDX Client Main Ticket Queue
         icon: favicon
