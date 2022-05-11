@@ -132,12 +132,14 @@ sections:
         target: newtab
         id: 0_1185_canvastest
         statusCheck: false
+        statusCheckUrl: https://status.instructure.com
       - title: Canvas Beta
         icon: favicon
         url: https://www.hws.beta.instructure.com
         target: newtab
         id: 1_1185_canvasbeta
         statusCheck: false
+        statusCheckUrl: https://status.instructure.com
       - title: Panopto Test
         icon: favicon
         url: https://hws-test.hosted.panopto.com
