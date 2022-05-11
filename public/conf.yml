@@ -9,7 +9,7 @@ pageInfo:
       path: https://www.google.com
       target: newtab
 appConfig:
-  theme: default
+  theme: basic
   layout: horizontal
   iconSize: large
   language: en
@@ -62,6 +62,11 @@ sections:
         target: newtab
         provider: Zoom
         id: 5_419_zoom
+      - title: EvaluationKit
+        icon: favicon
+        url: https://www.hws.evaluationkit.com
+        target: newtab
+        id: 6_419_evaluationkit
     displayData:
       sortBy: default
       rows: 1
@@ -83,3 +88,42 @@ sections:
         target: newtab
         provider: Google
         id: 0_836_googledrive
+      - title: Personal Site
+        icon: favicon
+        url: https://www.andrewlincolnsmith.com
+        target: sametab
+        id: 1_836_personalsite
+      - title: Genealogy Site
+        icon: favicon
+        url: https://www.genealogy.andrewlincolnsmith.com
+        target: sametab
+        id: 2_836_genealogysite
+  - name: Work Testing
+    icon: U+1F616
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Canvas Test
+        icon: favicon
+        url: https://www.hws.test.instructure.com
+        target: newtab
+        id: 0_1185_canvastest
+      - title: Canvas Beta
+        icon: favicon
+        url: https://www.hws.beta.instructure.com
+        target: newtab
+        id: 1_1185_canvasbeta
+      - title: Panopto Test
+        icon: favicon
+        url: hws-test.hosted.panopto.com
+        target: newtab
+        id: 2_1185_panoptotest
+      - title: TDX Sandbox
+        icon: favicon
+        url: https://hws.teamdynamix.com/SBTDClient/1889/Portal/KB/
+        target: newtab
+        id: 3_1185_tdxsandbox
